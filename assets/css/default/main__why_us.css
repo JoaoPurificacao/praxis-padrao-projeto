@@ -10,6 +10,4 @@
 
 .why_us p{
     color: var(--lightGray);
-    text-align: left;
-    word-break: keep-all;
 }
