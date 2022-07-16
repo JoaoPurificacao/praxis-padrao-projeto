@@ -1,0 +1,15 @@
+.why_us{
+    background-color: var(--lightCyan);
+    padding: 1.5rem;
+}
+
+.why_us h2{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.why_us p{
+    color: var(--lightGray);
+    text-align: left;
+    word-break: keep-all;
+}

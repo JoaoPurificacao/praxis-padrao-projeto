@@ -1,0 +1,39 @@
+.subscription{
+    background-color: var(--cyan);
+    padding: 1.5rem;
+}
+
+.subscription h2{
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.subscription p{
+    display: flex;
+    align-items: center;
+}
+
+.subscription span:nth-child(1){
+    color: #fff;
+    font-size: 2rem;
+    margin-right: 0.5rem;
+}
+
+.subscription span:nth-child(2){
+    color: var(--lightGray);
+}
+
+.subscription span:nth-child(3){
+    color: var(--lightGray);
+}
+
+.subscription button{
+    background-color: var(--brightYellow);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    height: 3rem;
+    margin-top: 2rem;
+    width: 100%;
+}
