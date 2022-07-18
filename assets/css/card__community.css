@@ -1,0 +1,17 @@
+.card__community{
+    background-color: #ffffff;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card__community__title{
+    color: var(--cyan);
+}
+
+.card__community__subTitle{
+    color: var(--brightYellow);
+    font-weight: bold;
+}
+
+.card__community__text{
+    color: var(--grayishBlue);
+}

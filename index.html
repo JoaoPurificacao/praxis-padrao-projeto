@@ -8,34 +8,41 @@
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/normalize.css">
   <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/css/default/main.css">
-  <link rel="stylesheet" href="./assets/css/default/main__community.css">
-  <link rel="stylesheet" href="./assets/css/default/main__subscription.css">
-  <link rel="stylesheet" href="./assets/css/default/main__why_us.css">
-  <link rel="stylesheet" href="./assets/css/mobile/main.css">
+  <link rel="stylesheet" href="./assets/css/card.css">
+  <link rel="stylesheet" href="./assets/css/card__community.css">
+  <link rel="stylesheet" href="./assets/css/card__subscription.css">
+  <link rel="stylesheet" href="./assets/css/card__why_us.css">
+  <link rel="stylesheet" href="./assets/css/mobile/card.css">
+  <link rel="stylesheet" href="./assets/css/mobile/card__community.css">
+  <link rel="stylesheet" href="./assets/css/mobile/card__subscription.css">
+  <link rel="stylesheet" href="./assets/css/mobile/card__why_us.css">
+  <link rel="stylesheet" href="./assets/css/desktop/card.css">
+  <link rel="stylesheet" href="./assets/css/desktop/card__community.css">
+  <link rel="stylesheet" href="./assets/css/desktop/card__subscription.css">
+  <link rel="stylesheet" href="./assets/css/desktop/card__why_us.css">
 </head>
-<body>
+<body class="body">
   <main class="card container">
-    <div class="community">
-      <h2>Join our community</h2>
-      <span>30-day, hassle-free money back guarantee</span>
-      <p>
-        Gain access to our full library of tutorials along with expert code reviews. 
+    <div class="card__community">
+      <h2 class="card__community__title">Join our community</h2>
+      <span class="card__community__subTitle">30-day, hassle-free money back guarantee</span>
+      <p class="card__community__text">
+        Gain access to our full library of tutorials along with expert code reviews.<br> 
         Perfect for any developers who are serious about honing their skills.
       </p>
     </div>
-    <div class="subscription">
-      <h2>Monthly Subscription</h2>
-      <p>
-        <span>&dollar;29</span>
-        <span>per month</span>
+    <div class="card__subscription">
+      <h2 class="card__subscription__title">Monthly Subscription</h2>
+      <p class="card__subscription__price">
+        <span class="card__subscription__price__value">&dollar;29</span>
+        <span class="card__subscription__price__period">per month</span>
       </p>
-      <span>Full access for less than &dollar;1 a day</span>
-      <button>Sign Up</button>
+      <span class="card__subscription__decoy">Full access for less than &dollar;1 a day</span>
+      <button class="card__subscription__button">Sign Up</button>
     </div>
-    <div class="why_us">
-      <h2>Why Us</h2>
-      <p>
+    <div class="card__why_us">
+      <h2 class="card__why_us__title">Why Us</h2>
+      <p class="card__why_us__text">
         Tutorials by industry experts<br>
         Peer &amp; expert code review<br>
         Coding exercises<br>
@@ -46,11 +53,5 @@
       </p>
     </div>
   </main>
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://github.com/JoaoPurificacao">João Purificação</a>.
-    </p>
-  </footer>
 </body>
 </html>

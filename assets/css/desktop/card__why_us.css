@@ -1,0 +1,14 @@
+@media screen and (min-width: 992px){
+    .card__why_us{
+        border-radius: 0px 0px 10px 0px;
+        padding: 1.5rem;
+    }
+    
+    .card__why_us__title{
+        font-size: 1.6rem;
+    }
+    
+    .card__why_us__text{
+        font-size: 1.25rem;
+    }
+}

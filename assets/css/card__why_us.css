@@ -1,13 +1,11 @@
-.why_us{
+.card__why_us{
     background-color: var(--lightCyan);
-    padding: 1.5rem;
 }
 
-.why_us h2{
+.card__why_us__title{
     color: white;
-    font-size: 1.2rem;
 }
 
-.why_us p{
+.card__why_us__text{
     color: var(--lightGray);
 }

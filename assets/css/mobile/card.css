@@ -2,6 +2,7 @@
     .card{
         height: 95vh;
         width: 85vw;
+        margin-top: 2rem;
     }
     
     .container{

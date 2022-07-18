@@ -1,39 +1,34 @@
-.subscription{
+.card__subscription{
     background-color: var(--cyan);
-    padding: 1.5rem;
 }
 
-.subscription h2{
+.card__subscription__title{
     color: #fff;
-    font-size: 1.2rem;
 }
 
-.subscription p{
+.card__subscription__price{
     display: flex;
     align-items: center;
 }
 
-.subscription span:nth-child(1){
+.card__subscription__price__value{
     color: #fff;
-    font-size: 2rem;
-    margin-right: 0.5rem;
 }
 
-.subscription span:nth-child(2){
+.card__subscription__price__period{
     color: var(--lightGray);
 }
 
-.subscription span:nth-child(3){
+.card__subscription__decoy{
     color: var(--lightGray);
 }
 
-.subscription button{
+.card__subscription__button{
     background-color: var(--brightYellow);
     border: none;
     border-radius: 5px;
     color: #fff;
     display: block;
     height: 3rem;
-    margin-top: 2rem;
     width: 100%;
 }

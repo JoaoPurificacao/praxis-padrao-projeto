@@ -1,0 +1,20 @@
+@media screen and (max-width: 992px){
+    .card__community{
+        padding: 1.5rem;
+    }
+    
+    .card__community__title{
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .card__community__subTitle{
+        font-weight: bold;
+    }
+    
+    .card__community__text{
+        margin-top: 1.5rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}

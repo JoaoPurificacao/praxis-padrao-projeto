@@ -1,0 +1,41 @@
+@media screen and (max-width: 992px){
+    .card__subscription{
+        background-color: var(--cyan);
+        padding: 1.5rem;
+    }
+    
+    .card__subscription__title{
+        color: #fff;
+        font-size: 1.2rem;
+    }
+    
+    .card__subscription__price{
+        display: flex;
+        align-items: center;
+    }
+    
+    .card__subscription__price__value{
+        color: #fff;
+        font-size: 2rem;
+        margin-right: 0.5rem;
+    }
+    
+    .card__subscription__price__period{
+        color: var(--lightGray);
+    }
+    
+    .card__subscription__decoy{
+        color: var(--lightGray);
+    }
+    
+    .card__subscription__button{
+        background-color: var(--brightYellow);
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        display: block;
+        height: 3rem;
+        margin-top: 1.5rem;
+        width: 100%;
+    }
+}

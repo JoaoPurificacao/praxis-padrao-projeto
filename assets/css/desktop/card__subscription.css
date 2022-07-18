@@ -1,0 +1,32 @@
+@media screen and (min-width: 992px){
+    .card__subscription{
+        border-radius: 0px 0px 0px 10px;
+        padding: 1.5rem;
+    }
+    
+    .card__subscription__title{
+        font-size: 1.6rem;
+    }
+    
+    .card__subscription__price{
+        display: flex;
+        align-items: center;
+    }
+    
+    .card__subscription__price__value{
+        font-size: 1.6rem;
+        margin-right: 0.5rem;
+    }
+    
+    .card__subscription__price__period{
+        font-size: 1rem;
+    }
+    
+    .card__subscription__decoy{
+        font-size: 1.25rem;
+    }
+    
+    .card__subscription__button{
+        font-size: 1.1rem;
+    }
+}

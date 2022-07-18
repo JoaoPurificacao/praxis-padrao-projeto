@@ -14,21 +14,14 @@
     font-family: Karla, sans-serif;
 }
 
-body{
+.body{
+    align-items: center;
     background-color: var(--lightGray);
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     height: 95vh;
     padding: 2rem;
     width: 100vw;
-}
-
-body main{
-    align-self: center;
-}
-
-body footer{
-    align-self: flex-end;
 }
 
 .attribution { 

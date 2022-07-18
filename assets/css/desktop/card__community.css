@@ -1,0 +1,21 @@
+@media screen and (min-width: 992px){
+    .card__community{
+        padding: 2rem;
+    }
+    
+    .card__community__title{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .card__community__subTitle{
+        font-size: 1.25rem;
+    }
+    
+    .card__community__text{
+        margin-top: 1rem;
+        font-size: 1.30rem;
+        line-height: 2rem;
+        
+    }
+}
