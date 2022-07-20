@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    /* Primary */
+    --red: rgb(255, 122, 122);
+    --green: rgb(56, 204, 140);
+
+    /* Accent */
+    --blue: rgb(96, 85, 165);
+    
+    /* Neutral */
+    --darkBlue: rgb(62, 60, 73);
+    --grayishBlue: rgb(185, 182, 211);
+
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
