@@ -1,0 +1,5 @@
+.background{
+    height: 100vh;
+    background-color: var(--red);
+    width: 100vw;
+}
