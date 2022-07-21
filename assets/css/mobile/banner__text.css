@@ -1,0 +1,18 @@
+@media screen and (max-width:992px) {
+    .banner__text{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .banner__text__title{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .banner__text__p{
+        font-size: 0.9rem;
+        text-align: center;
+        width: 75%;
+    }
+}

@@ -1,0 +1,36 @@
+.banner__signature{
+
+}
+
+.banner__signature__trial{
+    color: rgb(255, 255, 255);
+    background-color: var(--blue);
+}
+
+.banner__signature__form{
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+}
+
+.banner__signature__form p{
+    color: var(--grayishBlue);
+}
+
+
+.banner__signature__form p em{
+    color: var(--red);
+}
+
+.banner__signature__form__input{
+
+}
+
+.banner__signature__form__input::placeholder{
+    color: red;
+}
+
+
+.banner__signature__form__submit{
+    background-color: var(--green);
+    color: rgb(255, 255, 255);
+}

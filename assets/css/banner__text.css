@@ -1,5 +1,5 @@
 .banner__text{
-
+    display: flex;
 }
 
 .banner__text__title{

@@ -1,5 +1,9 @@
 @media screen and (max-width:992px) {
     .banner{
+        align-items: center;
+        height: 100vh;
         flex-direction: column;
+        justify-content: space-around;
+        width: 100vw;
     }
 }
