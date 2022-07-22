@@ -1,18 +1,40 @@
 @media screen and (max-width:992px) {
     .banner__signature{
-    
+        justify-content: space-between;
+        height: 70%;
+        width: 90%;
     }
     
     .banner__signature__trial{
+        border-radius: 12px;
+        height: 5rem;
+        line-height: 1.5rem;
+        padding: 1rem 3rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .banner__signature__trial span, .banner__signature__trial span em{
+        font-size: 1rem;
         
+    }
+
+    .banner__signature__trial span em{
+        font-weight: bold;
     }
     
     .banner__signature__form{
-        
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        border-radius: 12px;
+        height: 80%;
     }
     
     .banner__signature__form p{
-        
+        font-size: 0.9rem;
+        text-align: center;
+        width: 90%;
     }
     
     
@@ -21,7 +43,7 @@
     }
     
     .banner__signature__form__input{
-    
+                
     }
     
     .banner__signature__form__input::placeholder{
@@ -31,5 +53,12 @@
     
     .banner__signature__form__submit{
         
+    }
+
+    .banner__signature__form__input, .banner__signature__form__submit{
+        border-radius: 5px;
+        height: 3.5rem;
+        margin-top: 1rem;
+        width: 90%;
     }
 }

@@ -1,14 +1,20 @@
 @media screen and (min-width:992px) {
     .banner__signature{
-    
+        height: 60vh;
+        width: 40%;
     }
     
     .banner__signature__trial{
-        
+        height: 4rem;
+    }
+
+    .banner__signature__trial :where(span, em){
+        font-size: 1rem;
     }
     
     .banner__signature__form{
-        
+        height: 90%;
+        margin-top: 1rem;
     }
     
     .banner__signature__form p{
@@ -21,7 +27,7 @@
     }
     
     .banner__signature__form__input{
-    
+        
     }
     
     .banner__signature__form__input::placeholder{
@@ -31,5 +37,9 @@
     
     .banner__signature__form__submit{
         
+    }
+
+    .banner__signature__form__input, .banner__signature__form__submit{
+        height: 4.2rem;
     }
 }
